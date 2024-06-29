@@ -8,7 +8,7 @@ export function Nav() {
     };
     return (
         <>
-            <div className="md:fixed md:top-0 left-0 right-0 flex flex-row items-center h-28 cursor-pointer bg-slate-100 z-50">
+            <div className="fixed top-0 left-0 right-0 flex flex-row items-center h-28 cursor-pointer bg-slate-100 z-50">
                 <img src={MyCat} className="h-24 w-20" alt="My Cat" />
                 <div className="flex flex-row gap-7 text-4xl absolute right-20">
                     <div onClick={() => window.location.href="https://www.instagram.com/mohit_sati01/"} className="bg-violet-600 hover:bg-red-600 transition-transform duration-300 ease-in-out transform hover:scale-130 w-48 text-center rounded-[10px] p-6 flex-row justify-center text-white hidden md:flex font-extrabold">Visit</div>
