@@ -3,7 +3,7 @@ function VideoPath(){
     return(
         <>
         <div className="flex justify-center">
-        <video src={Myvideo} className="md:h-[400px] md:w-[700px] border-black relative md:top-40 top-[300px]  rounded-[10px] sm:h-[300px] sm:w-[500px] h-[300px] w-[350px]" controls={true} autoPlay={false}></video>
+        <video src={Myvideo} className="md:h-[400px] md:w-[700px] border-black relative md:top-40 top-[200px]  rounded-[10px] sm:h-[300px] sm:w-[500px] h-[300px] w-[350px]" controls={true} autoPlay={false}></video>
         </div>
         </>
     )
