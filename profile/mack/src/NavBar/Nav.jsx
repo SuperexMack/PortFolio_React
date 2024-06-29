@@ -12,7 +12,7 @@ export function Nav() {
                 <img src={MyCat} className="h-24 w-20" alt="My Cat" />
                 <div className="flex flex-row gap-7 text-4xl absolute right-20">
                     <div onClick={() => window.location.href="https://www.instagram.com/mohit_sati01/"} className="bg-violet-600 hover:bg-red-600 transition-transform duration-300 ease-in-out transform hover:scale-130 w-48 text-center rounded-[10px] p-6 flex-row justify-center text-white hidden md:flex font-extrabold">Visit</div>
-                    <div onClick={() => window.location.href="https://leetcode.com/u/MackWalker/"} className="bg-violet-600 hover:bg-red-600 transition-transform duration-300 ease-in-out transform hover:scale-130 w-48 text-center rounded-[10px] p-6 flex-row justify-center text-white hidden md:flex font-extrabold">Code</div>
+                    <div onClick={() => window.location.href="https://leetcode.com/u/MackWalker/"} className="bg-violet-600 hover:bg-red-600 transition-transform duration-300 ease-in-out transform hover:scale-130 w-48 text-center rounded-[10px] p-6 flex-row justify-center text-white hidden md:flex font-extrabold">code</div>
                     <div className="relative top-3 left-16 md:hidden" onClick={inverter}><i className="fa-solid fa-bars"></i></div>
                 </div>
             </div>
