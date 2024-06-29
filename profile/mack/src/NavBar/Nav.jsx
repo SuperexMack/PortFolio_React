@@ -18,7 +18,7 @@ export function Nav() {
             </div>
 
             {toggleMenu && (
-                <div className="fixed bg-slate-100 h-[400px] w-full inset-0 flex flex-col items-center justify-center z-40">
+                <div className="md:fixed top:0 bg-slate-100 h-[400px] w-full inset-0 flex flex-col items-center justify-center z-40">
                     <div className="absolute top-4 right-4" onClick={inverter}><i className="fa-solid fa-xmark text-4xl"></i></div>
                     <img src={MyCat} className="h-24 w-20" alt="My Cat" />
                     <div className="flex flex-col items-center gap-7 text-4xl">
